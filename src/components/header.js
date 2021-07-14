@@ -15,10 +15,9 @@ export default function Header() {
                 <li>Contact</li>
             </ul>
             <div className="search">
-            <label for="site-search">Search:</label>
 <input type="search" id="site-search" name="q"
-       aria-label="Search"></input>
-<button><img className="icon" src={search} alt="Search" /></button>                
+       aria-label="Search" placeholder="Search"></input>
+        <img className="icon" src={search} alt="Search" />
                 <img className="icon" src={cart} alt="Cart" />
                 
             </div>
